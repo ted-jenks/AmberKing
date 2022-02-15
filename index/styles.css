@@ -208,15 +208,18 @@ a.button1:hover {
   position: relative;
   float: left;
   flex: 1;
-  max-width: 700px;
+  max-width: 400px;
   aspect-ratio: 1/1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  gap: 0;
   background-color: #ffffff;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 a {
