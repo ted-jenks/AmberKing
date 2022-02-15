@@ -208,7 +208,7 @@ a.button1:hover {
   position: relative;
   float: left;
   flex: 1;
-  max-width: 400px;
+  max-width: 100px;
   aspect-ratio: 1/1;
   display: flex;
   flex-direction: column;
