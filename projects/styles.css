@@ -53,7 +53,7 @@ body {
   justify-content: center;
   flex-direction: row;
   /* flex: 1 1 auto; */
-  width: 60%;
+  width: 40vw;
 }
 
 a,
@@ -61,6 +61,7 @@ a,
   justify-content: center;
   flex: 1 1 auto;
   text-align: center;
+  vertical-align: middle;
 
   padding: 1vw 2vw 0vw 2vw;
   padding-top: 2px;
@@ -70,7 +71,7 @@ a,
 }
 
 .page {
-  width: 200px;
+  width: 15vw;
   transition: all 0.5s ease;
 }
 
@@ -236,12 +237,8 @@ a {
   background-color: white;
   transition: all 0.5s ease;
   position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  left: 50%;
-  -ms-transform: translatex(-50%);
-  transform: translatex(-50%);
+  top: 0.25%;
+  left: -0.25%;
 }
 
 .card:hover img {
