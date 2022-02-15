@@ -1,0 +1,250 @@
+/* * {
+  border: 3px solid red; */
+/* } */
+
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 0%;
+  gap: 0;
+  margin: 0%;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.widthlimit {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  max-width: 2000px;
+}
+
+.banner {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  max-width: 3000px;
+}
+.header {
+  background-color: white;
+  display: flex;
+  height: 2.5vw;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.headertext {
+  display: flex;
+  align-content: center;
+  text-align: center;
+}
+
+.pages {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  /* flex: 1 1 auto; */
+  width: 500px;
+}
+
+a,
+.page {
+  justify-content: center;
+  flex: 1 1 auto;
+  text-align: center;
+  vertical-align: middle;
+  padding: 5px;
+  padding-top: 2px;
+  font-size: 1.2vw;
+  color: black;
+  text-decoration: none;
+}
+
+.page {
+  width: 200px;
+  transition: all 0.5s ease;
+}
+
+.page:hover {
+  transform: scale(1.1);
+}
+
+.logo {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  min-width: 60px;
+}
+
+.logo img {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.logo {
+  flex: 0 0 10%;
+}
+
+.logo img {
+  width: 19%;
+}
+
+.description {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  padding: 5% 5% 5% 12%;
+  margin-bottom: 5%;
+}
+
+.bottles {
+  flex: 0 0 30%;
+  align-items: center;
+  align-content: center;
+}
+
+.bottles img {
+  width: 100%;
+}
+
+.text {
+  padding-left: 2%;
+  font-size: 1.2vw;
+}
+
+.footer {
+  flex: 1;
+  background-color: white;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 1.2vw;
+  color: black;
+}
+
+.label {
+  flex: 1;
+  padding: 0% 0 0% 0;
+}
+
+.wrapper {
+  margin-top: -6.5%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 60%;
+  aspect-ratio: 2.81/1;
+  perspective: 900px;
+  transform: translate(-50%, 0);
+}
+.wrapper:hover {
+  transition-delay: all 2s;
+  z-index: 10;
+}
+
+.container {
+  position: relative;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s all ease;
+  transform: rotateX(40deg) scale(0.7);
+  perspective: 900px;
+  animation: entry 1s linear 1;
+}
+
+.container img {
+  position: absolute;
+
+  box-shadow: 0px 20px 50px #555;
+  width: 100%;
+}
+
+#c0 {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 20px 100px #555;
+}
+
+.container:hover {
+  transform: rotate(0deg) scale(1) translateY(10px);
+  transition: 0.5s all ease;
+}
+
+span {
+  position: absolute;
+  top: 0%;
+  left: 55%;
+  border-radius: 100%;
+  background-color: #fff;
+}
+
+@keyframes entry {
+  0% {
+    top: -20%;
+    opacity: 0.1;
+  }
+  100% {
+    top: 0%;
+  }
+}
+
+.container1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5%;
+  align-items: center;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 1.5%;
+  padding-bottom: 1%;
+}
+
+.card {
+  flex: 1;
+  aspect-ratio: 1/1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0;
+  /* box-shadow: 20px 20px 20px #555; */
+  transition: all 1s ease;
+  max-width: 500px;
+}
+
+.card img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.card:hover {
+  transform: scale(1) translate(0, -10%);
+}

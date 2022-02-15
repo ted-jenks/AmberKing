@@ -1,0 +1,220 @@
+/* * {
+  border: 3px solid red;
+} */
+
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 0%;
+  gap: 0;
+  margin: 0%;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  align-items: center;
+  flex-wrap: wrap;
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  min-width: 900px;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 13%;
+  right: 10%;
+  padding-left: 50%;
+  color: white;
+  font-size: 1.2vw;
+}
+
+.widthlimit {
+  justify-content: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  max-width: 1700px;
+}
+
+.banner {
+  display: flex;
+  background-color: #fbe6f0;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  background-color: white;
+  display: flex;
+  height: 2.5vw;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.headertext {
+  display: flex;
+  align-content: center;
+  text-align: center;
+}
+
+.pages {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  /* flex: 1 1 auto; */
+  width: 500px;
+}
+
+a,
+.page {
+  justify-content: center;
+  flex: 1 1 auto;
+  text-align: center;
+  vertical-align: middle;
+  padding: 5px;
+  padding-top: 2px;
+  font-size: 1.2vw;
+  color: black;
+  text-decoration: none;
+}
+
+.page {
+  width: 200px;
+  transition: all 0.5s ease;
+}
+
+.page:hover {
+  transform: scale(1.1);
+}
+
+.buffer {
+  height: 100px;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0%;
+}
+
+.image img {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.text {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  max-width: 1700px;
+  min-width: 900px;
+}
+
+.phone {
+  padding: 30px;
+  flex: 0 0 20%;
+  height: 20vw;
+  background-color: white;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.phone img {
+  height: 28vw;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+h1 {
+  font-size: 40pt;
+}
+
+.words {
+  flex: 1;
+  text-align: left;
+  font-size: 1.2vw;
+  color: black;
+  padding: 3%;
+}
+
+.wordsr {
+  flex: 1;
+  text-align: right;
+  font-size: 1.2vw;
+  color: black;
+  padding: 3%;
+}
+
+.info {
+  display: flex;
+  padding-top: 100px;
+  align-items: center;
+  background-color: white;
+  flex-direction: column;
+  min-width: 900px;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5%;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  max-width: 1800px;
+}
+
+.card {
+  flex: 1;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0;
+}
+
+.card img {
+  object-fit: cover;
+  width: 100%;
+  transition: all 0.5s ease;
+}
+
+.card img:hover {
+  transform: scale(1.1);
+}
+.footer {
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 1.2vw;
+  color: black;
+}
