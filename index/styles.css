@@ -37,7 +37,7 @@ body {
 .headeri {
   background-color: white;
   display: flex;
-  height: 2.5vw;
+  height: 3vw;
   flex-direction: row;
   justify-content: center;
 }
@@ -68,6 +68,7 @@ a,
   font-size: 1.2vw;
   color: black;
   text-decoration: none;
+  z-index: 100;
 }
 
 .pagei {
@@ -160,7 +161,6 @@ a,
   transform: translateY(-5vh) translateX(-5vw); */
   padding-left: 40vw;
   font-size: 1.2vw;
-  border: 3px solid green;
 }
 
 a.button1 {

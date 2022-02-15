@@ -47,7 +47,7 @@ body {
 .header {
   background-color: white;
   display: flex;
-  height: 2.5vw;
+  height: 3vw;
   flex-direction: row;
   justify-content: center;
   width: 100%;
