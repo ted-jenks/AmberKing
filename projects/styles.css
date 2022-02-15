@@ -236,9 +236,6 @@ a {
   height: 100%;
   background-color: white;
   transition: all 0.5s ease;
-  position: absolute;
-  top: 0.25%;
-  left: -0.25%;
 }
 
 .card:hover img {

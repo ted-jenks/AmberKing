@@ -30,8 +30,8 @@ body {
 
 .bottom-right {
   position: absolute;
-  bottom: 5%;
-  right: 5%;
+  bottom: 7%;
+  right: 7%;
   /* -ms-transform: translateY(-5vh) translateX(-5vw);
   transform: translateY(-5vh) translateX(-5vw); */
   padding-left: 50%;
