@@ -14,6 +14,9 @@ body {
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   align-items: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 @keyframes fadeInAnimation {
