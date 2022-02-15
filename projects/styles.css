@@ -50,7 +50,7 @@ body {
   justify-content: center;
   flex-direction: row;
   /* flex: 1 1 auto; */
-  width: 500px;
+  width: 60%;
 }
 
 a,
@@ -58,8 +58,8 @@ a,
   justify-content: center;
   flex: 1 1 auto;
   text-align: center;
-  vertical-align: middle;
-  padding: 5px;
+
+  padding: 1vw 2vw 0vw 2vw;
   padding-top: 2px;
   font-size: 1.2vw;
   color: black;
