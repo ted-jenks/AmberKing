@@ -8,7 +8,7 @@ body {
   padding: 0%;
   gap: 0;
   margin: 0%;
-  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  font-family: "Lato", sans-serif;
   align-items: center;
   flex-wrap: wrap;
   animation: fadeInAnimation ease 1s;
@@ -31,12 +31,13 @@ body {
 .bottom-right {
   position: absolute;
   bottom: 7%;
-  right: 7%;
+  right: 5%;
   /* -ms-transform: translateY(-5vh) translateX(-5vw);
   transform: translateY(-5vh) translateX(-5vw); */
-  padding-left: 50%;
+  padding-left: 52%;
   color: white;
   font-size: 1.2vw;
+  text-align: right;
 }
 
 .widthlimit {
@@ -87,12 +88,11 @@ a,
   flex: 1 1 auto;
   text-align: center;
   vertical-align: middle;
-
-  padding: 1vw 2vw 0vw 2vw;
-  padding-top: 2px;
+  padding: 0.25vw 2vw 0vw 2vw;
   font-size: 1.2vw;
   color: black;
   text-decoration: none;
+  z-index: 100;
 }
 
 .page {
