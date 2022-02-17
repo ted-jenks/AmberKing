@@ -48,7 +48,7 @@ body {
 .header {
   background-color: white;
   display: flex;
-  height: 3vw;
+  height: 1.85vw;
   flex-direction: row;
   justify-content: center;
 }
@@ -75,7 +75,7 @@ a,
   vertical-align: middle;
 
   padding: 0.25vw 2vw 0vw 2vw;
-  font-size: 1.2vw;
+  font-size: 1vw;
   color: black;
   text-decoration: none;
 }

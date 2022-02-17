@@ -57,12 +57,13 @@ body {
   align-content: center;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .header {
   background-color: white;
   display: flex;
-  height: 3vw;
+  height: 1.85vw;
   flex-direction: row;
   justify-content: center;
   width: 100%;
@@ -79,7 +80,7 @@ body {
   justify-content: center;
   flex-direction: row;
   /* flex: 1 1 auto; */
-  width: 40vw;
+  width: 45vw;
 }
 
 a,
@@ -88,8 +89,8 @@ a,
   flex: 1 1 auto;
   text-align: center;
   vertical-align: middle;
-  padding: 0.25vw 2vw 0vw 2vw;
-  font-size: 1.2vw;
+  padding: 0.25vw 2vw 0.25vw 2vw;
+  font-size: 1vw;
   color: black;
   text-decoration: none;
   z-index: 100;
@@ -123,7 +124,7 @@ a,
 .image img {
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 99.9vw;
   height: auto;
   text-align: center;
 }
@@ -151,8 +152,29 @@ a,
   align-content: center;
 }
 
+.phone1 {
+  padding: 30px;
+  flex: 0 0 20%;
+  height: 20vw;
+  background-color: white;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
 .phone img {
   height: 28vw;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.phone1 img {
+  width: 100%;
   margin: 0;
   position: absolute;
   top: 50%;
