@@ -180,12 +180,12 @@ a,
   align-items: center;
   background-color: white;
   flex-direction: column;
-  padding: 5%;
+  padding: 5% 20% 5% 20%;
   padding-bottom: 2%;
 }
 
 .info img {
-  width: 60%;
+  width: 100%;
 }
 .footer {
   background-color: white;
