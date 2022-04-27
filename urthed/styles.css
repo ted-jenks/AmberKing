@@ -47,6 +47,7 @@ body {
   align-content: center;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 .header {
   background-color: white;
@@ -55,8 +56,6 @@ body {
   flex-direction: row;
   justify-content: center;
   width: 100%;
-
-  max-width: 3000px;
 }
 
 .headertext {
@@ -97,11 +96,13 @@ a,
 }
 .image {
   display: flex;
+  flex: 1 0 100%;
   align-items: center;
   justify-content: center;
-  padding: 1.5em;
+  padding: 0em;
   padding-top: 10%;
   padding-bottom: 0%;
+  width: 100vw;
 }
 
 .image img {
@@ -121,7 +122,6 @@ a,
   padding-left: 10%;
   padding-right: 10%;
   max-width: 3000px;
-  min-width: 900px;
 }
 
 .words {
@@ -145,7 +145,6 @@ a,
   padding-left: 5%;
   padding-right: 5%;
   max-width: 3000px;
-  min-width: 900px;
 }
 
 .logo {
@@ -177,15 +176,16 @@ a,
   padding-left: 2%;
 }
 
-.midsec {
+/* .midsec {
   flex: 1;
   display: flex;
   flex-direction: cloumn;
   align-content: center;
   align-items: center;
   max-width: 3000px;
-  min-width: 900px;
-}
+  width: 100vw;
+  border: 3px solid green;
+} */
 
 h1 {
   font-size: 1.7vw;
@@ -197,7 +197,6 @@ h1 {
   align-items: center;
   justify-content: center;
   max-width: 3000px;
-  min-width: 900px;
   padding: 1% 5% 2% 5%;
 }
 
