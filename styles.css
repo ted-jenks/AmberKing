@@ -32,7 +32,6 @@ body {
 .banneri {
   display: flex;
   flex-direction: column;
-  max-width: 3000px;
 }
 
 .headeri {
@@ -98,8 +97,8 @@ a,
 }
 
 .logoi img {
-  width: 47vw;
-  height: 31.5vw;
+  width: max(47vw, 235px);
+  height: max(31.5vw, 157.5px);
   /* object-fit: none; */
 }
 
@@ -161,17 +160,15 @@ a,
   padding-top: 27vw;
   padding-bottom: 2.5em;
   padding-right: 5%;
-  padding-left: 5%;
   text-align: right;
-  font-size: 18px;
   color: black;
   position: absolute;
   bottom: 12%;
   right: 0%;
   /* -ms-transform: translateY(-5vh) translateX(-5vw);
   transform: translateY(-5vh) translateX(-5vw); */
-  padding-left: 40vw;
-  font-size: 1.2vw;
+  padding-left: max(40%, 40vw);
+  font-size: max(12px, 1.2vw);
 }
 
 a.button1 {
@@ -203,7 +200,6 @@ a.button1:hover {
   display: flex;
   flex-direction: column;
   padding-top: 120px;
-  max-width: 3000px;
 }
 
 .containeri {
