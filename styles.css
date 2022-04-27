@@ -1,6 +1,6 @@
-* {
+/* * {
   border: 3px solid red;
-}
+} */
 
 body {
   display: flex;
@@ -32,6 +32,7 @@ body {
 .banneri {
   display: flex;
   flex-direction: column;
+  max-width: 3000px;
 }
 
 .headeri {
@@ -202,6 +203,7 @@ a.button1:hover {
   display: flex;
   flex-direction: column;
   padding-top: 120px;
+  max-width: 3000px;
 }
 
 .containeri {
